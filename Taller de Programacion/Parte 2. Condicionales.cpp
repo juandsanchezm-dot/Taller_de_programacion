@@ -81,15 +81,15 @@ int main()
     //Calculando y mostrando en pantalla
     if (b < c && c > d)
     {
-        cout<<"El "<<c<<" es el numero de mayor valor entre "<<b<<" y "<<d;
+        cout<<"El "<<c<<" es el numero de mayor valor entre "<<"("<<b<<", "<<c<<", "<<d<<")";
     }
     else if (c < b && b > d)
     {
-        cout<<"El "<<b<<" es el numero de mayor valor entre "<<c<<" y "<<d;
+        cout<<"El "<<b<<" es el numero de mayor valor entre "<<"("<<b<<", "<<c<<", "<<d<<")";
     }
     else if (b < d && d > c)
     {
-        cout<<"El "<<d<<" es el numero de mayor valor entre "<<b<<" y "<<c;
+        cout<<"El "<<d<<" es el numero de mayor valor entre "<<"("<<b<<", "<<c<<", "<<d<<")";
     }
     else 
     {

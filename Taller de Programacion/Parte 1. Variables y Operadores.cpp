@@ -53,7 +53,7 @@ int main()
 
 
     /*4. Escribe un programa que reciba 3 notas de un estudiante y calcule el promedio.*/
-    cout<<"Calculando el promedio de tres notas";
+    cout<<"Calculando el promedio de tres notas\n";
     //Declarando variables
     float c, d, e, promedio;
     //Asignando valores
@@ -65,6 +65,6 @@ int main()
     cin>>e;
     promedio = (c + d + e) / 3;
     //Mostrando en pantalla
-    cout<<"Promedio: "<<promedio;"\n";
+    cout<<"Promedio: "<<promedio;
     return 0;
 }
